@@ -4,8 +4,8 @@ public class Hello {
 	
 	String message = "안녀하세요";
 
-	public void say()
+	public String say()
 	{
-		System.out.println(message);
+		return message;
 	}
 }
